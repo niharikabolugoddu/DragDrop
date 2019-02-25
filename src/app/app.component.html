@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center margin-top">
+  <div class="expressionArea" [innerHtml]="htmlAppendChild" (drop)="onDrop($event, dropData)" (dragover)="allowDrop($event)">
+  
+  </div>
+  <div class="margin-top">
+    <span id="add" class="inline" draggable="true" (dragstart)="onDragStart($event, dragData)">add</span>
+    <span id="subtract" class="inline" draggable="true" (dragstart)="onDragStart($event, dragData)">subtract</span>
+    <span id="foo" class="inline" draggable="true" (dragstart)="onDragStart($event, dragData)">foo</span>
+    <span id="doSomethingComplicated" class="inline" draggable="true" (dragstart)="onDragStart($event, dragData)">doSomethingComplicated</span>
+  </div>
+</div>
+<router-outlet></router-outlet>

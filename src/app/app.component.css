@@ -1,0 +1,28 @@
+.expressionArea{
+    width:80%;
+    height:140px;
+    border:1px solid black;
+}
+.inline{
+    display : inline;
+    margin : 20px;
+    border: 1px solid black;
+    min-width: 100px;
+    padding: 4px 10px;
+}
+.margin-top{
+    margin-top : 30px; 
+}
+.arguments{
+    margin : 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    padding: 4px 60px;
+}
+.centerAlign{
+    margin: auto;
+    width: 80%;
+    position: relative;
+    top: 40%;
+}
